@@ -1,0 +1,36 @@
+/*change the font later this one is gross*/
+body {
+    font-family: 'Mitr', sans-serif; 
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /*vertical center*/
+    align-items: center; /*horizontal center*/
+    min-height: 100vh; 
+    background-color: #acaec2;
+    text-align: center; 
+}
+h1 {
+    font-weight: 400; 
+    font-size: 2.5rem; 
+}
+
+
+/*navigation bar */
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #44507a; /* Optional hover effect */
+}
+
+canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
