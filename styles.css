@@ -1,6 +1,6 @@
 /*change the font later this one is gross*/
 body {
-    font-family: 'Mitr', sans-serif; 
+    font-family: 'Space Mono', monospace;
     margin: 0; 
     padding: 0;
     display: flex;
@@ -8,11 +8,12 @@ body {
     justify-content: center; /*vertical center*/
     align-items: center; /*horizontal center*/
     min-height: 100vh; 
-    background-color: #acaec2;
+    background-color: #93707b;
     text-align: center; 
 }
 h1 {
-    font-weight: 400; 
+    font-family: 'Space Mono', monospace; 
+    font-weight: 700; /* Bold */
     font-size: 2.5rem; 
 }
 
@@ -20,17 +21,34 @@ h1 {
 /*navigation bar */
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #ffe3ebba;
     margin: 0 10px;
     font-weight: 500;
 }
 
 nav a:hover {
-    color: #44507a; /* Optional hover effect */
+    color: #f9bae1; 
 }
 
 canvas{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+ul {
+    list-style: none; /* Removes bullets */
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    margin-bottom: 15px
+}
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+ul li a:hover {
+    text-decoration: none;
+    color: #f9bae1;
 }
